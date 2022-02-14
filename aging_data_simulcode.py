@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import numpy as np
-!pip install --upgrade matplotlib==3.4.2 #needed for value labeling in the graph
+#!pip install --upgrade matplotlib==3.4.2 #needed for value labeling in the graph
 import matplotlib.pyplot as plt
 import pandas as pd
 
