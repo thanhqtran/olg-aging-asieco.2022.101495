@@ -4,8 +4,8 @@ library(tidyverse)
 require(dplyr)
 require(tidyverse)
 #importing data
-path_nta <- 'path_to_nta_data'
-path_life <- 'https://raw.githubusercontent.com/thanhqtran/dataset/main/un_demography/life_edu.csv'
+path_nta <- 'https://raw.githubusercontent.com/thanhqtran/olg-aging/main/nta_allcountries_updated.csv?token=GHSAT0AAAAAABZ2SZQXVDGMSLAIMSL56JDMY2XQZLA'
+path_life <- 'https://raw.githubusercontent.com/thanhqtran/olg-aging/main/life_edu.csv?token=GHSAT0AAAAAABZ2SZQX2U2GUEBAABHPDH4SY2XQZ7A'
 # import nta data
 nta_world_raw <- read.csv(path_nta)
 nodata <- c('Taiwan') #no data of education index available
